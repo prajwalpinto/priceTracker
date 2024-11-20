@@ -1,0 +1,20 @@
+[
+  {
+    "store": "Walmart",
+    "customName": "Butter",
+    "basePrice": 5.98,
+    "url": "https://www.walmart.ca/en/ip/Great-Value-Salted-Butter/6000200237828"
+  },
+  {
+    "store": "Walmart",
+    "customName": "Diapers",
+    "basePrice": 29.97,
+    "url": "https://www.walmart.ca/en/ip/rascals-premium-jumbo-diapers-size-4/6000198888345"
+  },
+  {
+    "store": "Walmart",
+    "customName": "Cilantro",
+    "basePrice": 1.47,
+    "url": "https://www.walmart.ca/en/ip/seot/981708?listRegistryId=gl283700278"
+  }
+]
