@@ -1,6 +1,6 @@
 ## Price Tracker
 
-Helps you track prices of products on Walmart, Superstore
+Helps you track prices of products on Walmart, Superstore, Nofrills
 
 To execute simple run:
 python3 main.py
@@ -13,3 +13,4 @@ Future plans:
 - Add more features
 - Build GUI to make it easier to use
 - pass JSON as API parameter
+- setup pricetracker API instead of using JSON files
