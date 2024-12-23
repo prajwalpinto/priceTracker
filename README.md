@@ -1,9 +1,9 @@
 ## Price Tracker
 
-Helps you track prices of products on Walmart,
+Helps you track prices of products on Walmart, Superstore
 
 To execute simple run:
-python3 walmart.py
+python3 main.py
 Place the JSON file products.json and enter the product details of the item you want to track.
 
 Future plans:

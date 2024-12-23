@@ -1,5 +1,17 @@
 [
   {
+    "store": "Superstore",
+    "customName": "Cilantro",
+    "basePrice": 2,
+    "url": "https://api.pcexpress.ca/pcx-bff/api/v1/products/20091825001_EA"
+  },
+  {
+    "store": "NoFrills",
+    "customName": "Cilantro",
+    "basePrice": 2,
+    "url": "https://api.pcexpress.ca/pcx-bff/api/v1/products/20091825001_EA"
+  },
+  {
     "store": "Walmart",
     "customName": "Butter",
     "basePrice": 5.98,
