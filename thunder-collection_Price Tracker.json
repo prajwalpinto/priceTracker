@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Price Tracker",
+    "collectionId": "f4ab0b2f-6934-402a-b004-d3043abbbe8f",
+    "dateExported": "2025-01-20T19:55:57.104Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "766d7d8c-1caa-412e-a170-4cbbe54ab190",
+            "colId": "f4ab0b2f-6934-402a-b004-d3043abbbe8f",
+            "containerId": "",
+            "name": "GET all Items",
+            "url": "localhost:5000/api/items",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-01-20T19:54:19.879Z",
+            "modified": "2025-01-20T19:54:19.879Z",
+            "headers": []
+        },
+        {
+            "_id": "d04f54ee-c828-4d5c-a03d-70c1df987c3b",
+            "colId": "f4ab0b2f-6934-402a-b004-d3043abbbe8f",
+            "containerId": "",
+            "name": "GET item by Id",
+            "url": "localhost:5000/api/items/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-01-20T19:54:26.894Z",
+            "modified": "2025-01-20T19:54:26.894Z",
+            "headers": []
+        },
+        {
+            "_id": "9e2e3dd8-5cb4-4c71-81c0-62a63a7d85e8",
+            "colId": "f4ab0b2f-6934-402a-b004-d3043abbbe8f",
+            "containerId": "",
+            "name": "UPDATE item by Id",
+            "url": "localhost:5000/api/items/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-01-20T19:54:32.144Z",
+            "modified": "2025-01-20T19:54:32.144Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"store\": \"Superstore\",\n    \"customName\": \"Cilantro\",\n    \"basePrice\": 2,\n    \"url\": \"https://api.pcexpress.ca/pcx-bff/api/v1/products/20091825001_EA\"\n  }\n  ",
+                "form": []
+            }
+        },
+        {
+            "_id": "0692338d-03c2-4ba8-90b4-2e87d8d55024",
+            "colId": "f4ab0b2f-6934-402a-b004-d3043abbbe8f",
+            "containerId": "",
+            "name": "CREATE Item",
+            "url": "localhost:5000/api/items",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-01-20T19:54:36.744Z",
+            "modified": "2025-01-20T19:54:36.744Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"store\": \"NoFrills\",\n    \"customName\": \"Diapers\",\n    \"basePrice\": 29.97,\n    \"url\": \"https://www.walmart.ca/en/ip/rascals-premium-jumbo-diapers-size-4/6000198888345\"\n  }\n  ",
+                "form": []
+            }
+        },
+        {
+            "_id": "61a137b3-612f-4447-906d-21e36581a7c4",
+            "colId": "f4ab0b2f-6934-402a-b004-d3043abbbe8f",
+            "containerId": "",
+            "name": "DELETE item by Id",
+            "url": "localhost:5000/api/items/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-01-20T19:54:42.178Z",
+            "modified": "2025-01-20T19:54:42.178Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "\n    {\n    \"store\": \"NoFrills\",\n    \"customName\": \"Butter\",\n    \"basePrice\": 5.98,\n    \"url\": \"https://www.walmart.ca/en/ip/Great-Value-Salted-Butter/6000200237828\"\n  }\n  ",
+                "form": []
+            }
+        }
+    ],
+    "ref": "Y4fjgYPyn4ommSn29K4sNY13Lqnpf0sENkgZ3idoQPmomfCVO-Kd6b5Zuf2W27ArGOMyRvxRZwOE4TXKdSfZ8w"
+}
