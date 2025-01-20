@@ -1,0 +1,5 @@
+Jan 20, 2025
+-------------
+- CRUD operation to store grocery items in DB
+- Tests for CRUD operation on grocery items
+- Folder structure creation

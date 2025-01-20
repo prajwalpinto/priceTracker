@@ -1,0 +1,50 @@
+{
+    "created_at": "12/26/2024, 10:29:52",
+    "data": [
+        {
+            "customName": "Cilantro",
+            "name": "Cilantro",
+            "store": "Superstore",
+            "price": 2.0,
+            "priceDrop": false,
+            "basePrice": 2,
+            "url": "https://api.pcexpress.ca/pcx-bff/api/v1/products/20091825001_EA"
+        },
+        {
+            "customName": "Cilantro",
+            "name": "Cilantro",
+            "store": "NoFrills",
+            "price": 1.89,
+            "priceDrop": true,
+            "basePrice": 2,
+            "url": "https://api.pcexpress.ca/pcx-bff/api/v1/products/20091825001_EA"
+        },
+        {
+            "customName": "Butter",
+            "name": "Great Value Salted Butter, 454 g",
+            "store": "Walmart",
+            "price": 5.98,
+            "priceDrop": false,
+            "basePrice": 5.98,
+            "url": "https://www.walmart.ca/en/ip/Great-Value-Salted-Butter/6000200237828"
+        },
+        {
+            "customName": "Diapers",
+            "name": "Rascals Premium Jumbo Diapers, Unisex, Sizes N-7",
+            "store": "Walmart",
+            "price": 29.97,
+            "priceDrop": false,
+            "basePrice": 29.97,
+            "url": "https://www.walmart.ca/en/ip/rascals-premium-jumbo-diapers-size-4/6000198888345"
+        },
+        {
+            "customName": "Cilantro",
+            "name": "Cilantro, Sold in bunches",
+            "store": "Walmart",
+            "price": 1.47,
+            "priceDrop": false,
+            "basePrice": 1.47,
+            "url": "https://www.walmart.ca/en/ip/seot/981708?listRegistryId=gl283700278"
+        }
+    ]
+}
