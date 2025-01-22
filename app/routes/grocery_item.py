@@ -11,6 +11,7 @@ def validate_store(store_name):
     except ValueError:
         return None
 
+## GET All Items ##
 @grocery_blueprint.route("/api/items", methods=["GET"])
 def get_items():
     items = GroceryItem.query.all()
@@ -23,6 +24,7 @@ def get_items():
             "store": item.store.value
         } for item in items]), 200
 
+## GET Item by ID ##
 @grocery_blueprint.route("/api/items/<int:item_id>", methods=["GET"])
 def get_grocery_item(item_id):
     item = GroceryItem.query.get(item_id)
@@ -37,6 +39,7 @@ def get_grocery_item(item_id):
             "store": item.store.value
     }), 200
 
+## POST Create Item ##
 @grocery_blueprint.route("/api/items", methods=["POST"])
 def add_item():
     data = request.get_json()
@@ -56,6 +59,7 @@ def add_item():
     db.session.commit()
     return jsonify({"message": "Grocery item created", "item": new_item.id}), 201
 
+## UPDATE Item ##
 @grocery_blueprint.route("/api/items/<int:item_id>", methods=["PUT"])
 def update_item(item_id):
     data = request.get_json()
@@ -74,6 +78,7 @@ def update_item(item_id):
     db.session.commit()
     return jsonify({"message": "Grocery item updated"}), 200
 
+## DELETE Item ##
 @grocery_blueprint.route("/api/items/<int:item_id>", methods=["DELETE"])
 def delete_item(item_id):
     item = GroceryItem.query.get(item_id)
