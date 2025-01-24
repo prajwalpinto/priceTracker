@@ -1,8 +1,9 @@
 
 import datetime
+from flask import jsonify
 import json
-from walmart import fetch_walmart_price
-from loblaw import fetch_loblaw_price
+from .walmart import fetch_walmart_price
+from .loblaw import fetch_loblaw_price
 
 file_path="./products.json"
 
@@ -25,10 +26,8 @@ def fetch_price(url, store):
     else:
         return "Invalid store selection."
 
-def track_prices():
+def track_prices(products):
     price_data = []
-    
-    products = load_products()
     for product in products:
         product_info={}
         product_info["customName"] = product['customName']
