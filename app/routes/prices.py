@@ -20,5 +20,6 @@ def serialize_grocery_item(item):
 def get_prices():
     items=GroceryItem.query.all()
     serialized_items = [serialize_grocery_item(item) for item in items]
-    track_prices(serialized_items)
+    result=track_prices(serialized_items)
+    return jsonify(result),200
 # return serialized data

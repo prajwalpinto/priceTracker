@@ -46,12 +46,16 @@ def track_prices(products):
         else:
             price_data.append({"name":"ERROR","price":"ERROR", "url": url,})
             print(price_data)
-
+    
+    creation_time = datetime.datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+    payload = {"created_at": creation_time, "data": price_data}
+    return payload
     # Save to file or database
-    with open("prices.json", "a") as file:
-        creation_time = datetime.datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-        payload = {"created_at": creation_time, "data": price_data}
-        json.dump(payload, file, indent=4)
+    # with open("prices.json", "a") as file:
+        # creation_time = datetime.datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+        # payload = {"created_at": creation_time, "data": price_data}
+        # json.dump(payload, file, indent=4)
+        
 
 if __name__ == "__main__":
     track_prices()
