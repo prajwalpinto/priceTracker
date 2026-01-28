@@ -14,3 +14,4 @@ Future plans:
 - Build GUI to make it easier to use
 - pass JSON as API parameter
 - setup pricetracker API instead of using JSON files
+- deploy 
